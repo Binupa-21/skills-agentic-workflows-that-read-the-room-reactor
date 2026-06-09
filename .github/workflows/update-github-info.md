@@ -30,6 +30,8 @@ Use these sources:
 - GitHub Changelog: https://github.blog/changelog/
 - awesome-copilot workflows: https://awesome-copilot.github.com/workflows/
 
+Web fetch https://awesome-copilot.github.com/workflows/ and use it as a source for workflow updates.
+
 Update `site/content/github-info.md` with concise, practical updates for readers.
 Include source context when the content comes from the GitHub Blog, GitHub Changelog, or awesome-copilot workflows.
 

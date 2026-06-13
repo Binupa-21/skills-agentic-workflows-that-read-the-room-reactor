@@ -165,6 +165,7 @@ jobs:
         timeout-minutes: 20
         run: |
           set -o pipefail
+          mkdir -p /tmp/gh-aw
           printf '%s' "$(date +%s%3N)" > /tmp/gh-aw/agent_cli_start_ms.txt
           touch /tmp/gh-aw/agent-step-summary.md
           GH_AW_NODE_BIN=$(command -v node 2>/dev/null || true)

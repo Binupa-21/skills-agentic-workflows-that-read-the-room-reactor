@@ -5,6 +5,7 @@ on:
   workflow_dispatch:
   schedule:
     - cron: '17 9 * * *'
+model: gpt-4-turbo
 safe-outputs:
   create-pull-request:
     title-prefix: "[mona] "
